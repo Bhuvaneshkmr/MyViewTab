@@ -14,5 +14,10 @@ pipeline {
                 bat  'atlas-package'
             }
         }
+       stage('Deploy') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
